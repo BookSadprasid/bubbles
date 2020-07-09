@@ -198,7 +198,77 @@ h1,h2,h3,h4,h5,h6,p {
   line-height: 35px;
   padding-top: 26px;
   padding-left: 30px;
+  overflow: hidden;
+  position: relative;
 }
+
+.sideScrollBottom {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  border: none;
+  background: none;
+  margin-bottom: -15px;
+}
+
+.paintGrid{
+  margin-top: 36px;
+  width: 100%;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(10, 72px);
+  grid-column-gap: 17px;
+
+}
+
+.paint{
+  height: 51px;
+}
+
+.paint svg{
+  height: 51px;
+}
+
+.paint:nth-child(1) path:first-child{
+  fill: #D8E0BB;
+} 
+
+.paint:nth-child(2) path:first-child{
+  fill: #B6CEC7;
+} 
+
+.paint:nth-child(3) path:first-child{
+  fill: #86A3C3;
+} 
+
+.paint:nth-child(4) path:first-child{
+  fill: #FFD083;
+} 
+
+.paint:nth-child(5) path:first-child{
+  fill: #C86218;
+} 
+
+.paint:nth-child(6) path:first-child{
+  fill: #D63118;
+} 
+
+.paint:nth-child(7) path:first-child{
+  fill: #D63118;
+} 
+
+.paint:nth-child(8) path:first-child{
+  fill: #1D3557;
+} 
+
+.paint:nth-child(9) path:first-child{
+  fill: #A8DADC;
+} 
+
+.paint:nth-child(10) path:first-child{
+  fill: #F1FAEE;
+} 
+
 
 .App-logo {
   height: 40vmin;
