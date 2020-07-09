@@ -1,6 +1,145 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
+
+body {
+  font-family: Muli;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0px;
+}
+
+
+.App {
+  background-image: url('/background.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 39px 0px 19px 111px;
+}
+
+.container {
+  background-image: url('/white-background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 79px 45px 79px 77px;
+  display: flex;
+
+}
+
+.left {
+  width: 332px;
+  height: 100%;
+  padding-top: 85px;
+  padding-bottom: 110px;
+}
+
+.greeting {
+  font-family: muli;
+  font-weight: 350;
+}
+
+.timecount {
+  font-family: muli;
+  font-weight: initial;
+  font-size: 13px;
+  line-height: 19px;
+  margin-top: 8px;
+  color: #979797;
+}
+
+.today {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  margin-top: 35px;
+
+}
+
+.excerciseName {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #979797;
+
+}
+
+.progressbar {
+  background-color: #E5E5E5;
+  width: 271px;
+  height: 18px;
+  margin-top: 7px;
+  border-radius: 10px;
+  font-size: 9px;
+  text-align: right;
+  color: #FFFFFF;
+  position: relative;
+  margin-bottom: 7px;
+}
+
+.progressbar span {
+  margin-right: 13px;
+  line-height: 17px;
+  display: inline-block;
+}
+
+.statusbar {
+  height: 100%;
+  border-radius: inherit;
+  position: absolute;
+  top: 0;
+}
+
+.gameLinkContainer {
+  margin-top: 74px;
+  height: 169px;
+  width: 100%;
+  display: flex;
+}
+
+.gameLink {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 125px;
+  height: 169px;
+  margin-right: 21px;
+  font-size: 24px;
+  line-height: 20px;
+  padding-left: 17px;
+  padding-top: 22px;
+  display: flex;
+  padding-bottom: 22px;
+  transition: all 0.5s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.gameLink:hover {
+  background-color: #ACA5FA;
+  color: #FFFFFF;
+}
+.gameLink span {
+  align-self: flex-end;
+}
+
+  .right {
+  width: 578px;
+  height: 100%;
+  background-color: blue;
+}
+/* .righttop {
+  background-image: url('/white-reg-background.png');
+  height: 321px;
+  padding: 0px 0px 442px 409px;
+  background-repeat: no-repeat;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -26,6 +165,34 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.background {
+  /* The image used */
+  background-image: url("/background.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.white-background {
+  /* The image used */
+  background-image: url("/white-background.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position:relative;
 }
 
 @keyframes App-logo-spin {
