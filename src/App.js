@@ -38,10 +38,10 @@ function App() {
           </div>
 
           <div className="gameLinkContainer">
-          <a className="gameLink" href="#">
+          <a className="gameLink" href="/paint" >
               Collect more paint.
           </a>
-          <a className="gameLink" href="#">
+          <a className="gameLink" href="/studio">
               <span>The studio.</span>
           </a>
           </div>
