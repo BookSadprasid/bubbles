@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Muli;
+  font-family: 'Muli', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -41,12 +41,10 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .greeting {
-  font-family: muli;
   font-weight: 350;
 }
 
 .timecount {
-  font-family: muli;
   font-weight: initial;
   font-size: 13px;
   line-height: 19px;
@@ -55,7 +53,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .today {
-  font-family: Muli;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -65,7 +62,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .excerciseName {
-  font-family: Muli;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
