@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 
 .App {
-  background-image: url('/background.png');
+  background-image: url('/background.svg');
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,10 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .container {
-  background-image: url('/white-background.png');
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,6 +37,7 @@ h1,h2,h3,h4,h5,h6,p {
   height: 100%;
   padding-top: 85px;
   padding-bottom: 110px;
+  padding-right: 31px;
 }
 
 .greeting {
@@ -132,14 +136,69 @@ h1,h2,h3,h4,h5,h6,p {
   .right {
   width: 578px;
   height: 100%;
-  background-color: blue;
+  flex-grow: 1;
 }
-/* .righttop {
-  background-image: url('/white-reg-background.png');
+
+.rightTop {
+  width: 100%;
   height: 321px;
-  padding: 0px 0px 442px 409px;
-  background-repeat: no-repeat;
-} */
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-size: 24px;
+  line-height: 35px;
+  padding-top: 26px;
+  padding-left: 30px;
+  padding-bottom: 26px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.sideScroll {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  border: none;
+  background: none;
+  margin-bottom: -15px;
+}
+
+.leftDivide {
+  margin-right: 16px;
+}
+
+.rightDivide {
+  display: flex;
+}
+
+.paintingFirst {
+  background: #F7F7F7;
+  border-radius: 10px;
+  width: 199px;
+  height: 222px;
+  margin-top: 12px;
+}
+
+.painting{
+  background: #F7F7F7;
+  border-radius: 10px;
+  width: 267px;
+  height: 100%;
+  margin-right: 16px;
+}
+
+.rightBottom {
+  width: 100%;
+  height: 321px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-size: 24px;
+  line-height: 35px;
+  padding-top: 26px;
+  padding-left: 30px;
+}
 
 .App-logo {
   height: 40vmin;

@@ -45,11 +45,39 @@ function App() {
               <span>The studio.</span>
           </a>
           </div>
+      </div>
 
-      </div>
       <div className="right">
+        <div className="rightTop" style={{marginBottom: 37}}>
+          <button className="sideScroll" type="button">
+            <img src="/arrow.svg" alt="arrow"/>
+          </button>
+          <div className="leftDivide">
+            My Paintings
+            <div className="paintingFirst">
+            </div>
+          </div>
+          <div className="rightDivide"> 
+            <div className="painting">
+            </div>
+            <div className="painting">
+            </div>
+            <div className="painting">
+            </div>
+            <div className="painting">
+            </div>
+            <div className="painting">
+            </div>
+          </div>
+          
+         
+
+        </div>
+        <div className="rightBottom">
+          Paint Collected
+        </div>
       </div>
-      
+    
     </div>
 
     
