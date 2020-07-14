@@ -2,8 +2,23 @@
   box-sizing: border-box;
 }
 
+.thumbFrame {
+  overflow: hidden;
+  border: thin solid gray;
+  margin: 1;
+  height: 250px;
+  width: 250px;
+}
+div.thumbMenu{
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
 body {
   font-family: 'Muli', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 h1,h2,h3,h4,h5,h6,p {
