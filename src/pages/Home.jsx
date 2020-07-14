@@ -10,6 +10,7 @@ export default function Home() {
     <div className="container">
       
       <div className="left">
+          <img src='BubbleBreather_Logo.png' alt='logo' style={{height: 50, marginBottom: 20}}/>
           <h1 className="greeting">
           Welcome back
           </h1>
